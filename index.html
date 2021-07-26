@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Stocks| Profit | Loss </title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+     <header>
+          <h1><img src="https://img.icons8.com/ios-filled/50/26e07f/bullish.png" /> STOCKS <img
+                    src="https://img.icons8.com/ios-filled/50/fa314a/bearish.png" /></h1>
+     </header>
+
+
+     <!-- Inputs -->
+     <section class="section_form">
+
+          <form id="form">
+
+               <label for="costPrice">
+                    <h2>Enter Purchase Price</h2>
+               </label>
+
+               <input type="number" id="costPrice" required placeholder="Purchase" step=".01">
+
+               <label for="quantity">
+                    <h2>Enter Stock Quantity</h2>
+               </label>
+
+               <input type="number" id="quantity" required placeholder="Qunatity">
+
+               <label for="sellingPrice">
+                    <h2>Enter Selling Price</h2>
+               </label>
+
+               <input type="number" id="sellingPrice" required placeholder="Selling" step=".01">
+
+               <br>
+
+               <button type="submit" id="submit">Check</button>
+
+          </form>
+
+     </section>
+
+     <!--Profit  -->
+
+     <div class="profit_output">
+          
+     </div>
+
+     <!-- Loss -->
+
+     <div class="loss_output">
+          
+          
+     </div>
+
+     <!-- footer -->
+     <footer>
+          <h3>Made by: <a href="https://vanshsharma.netlify.app/">Vansh Sharma</a> </h3>
+     </footer>
+
+     <script src="./app.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+body{
+     font-family:"STIX Two Math";
+     margin: auto;
+     padding: 0;
+     background-color: whitesmoke;
+     text-justify: inter-word;
+
+
+    }
+header{
+     background-color: #dae3ee;
+     text-align: center;
+     padding: 2vw 0 0 2vw;
+}
+
+
+.section_form{
+     background-color:#5E6572 ;
+     margin: auto;
+     width: 30vw;
+     padding: 2rem;
+     min-height: 50vh;
+     border-radius: 20px;
+     text-align: center;
+     border: 2px solid grey;
+     box-shadow: 5px 6px 5px black;
+     display:block;
+}
+
+input{
+     width:50%;
+     border-color: #dae3ee;
+     box-shadow: 2px 6px 4px black;
+}
+
+[placeholder]{
+     text-align: center;
+     font-weight: bolder;
+}
+
+button{
+     margin-top:1rem;
+     box-shadow:  2px 6px 4px black;
+     border: 2px solid black;
+
+}
+
+.profit_output{
+     background-color: #11998e;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+     text-align: center;
+     width:50%;
+     margin: auto;
+     border-radius:15px;
+     padding:5px;
+     box-shadow: 5px 7px 3px green;
+     font-weight: bold;
+     display:none;
+}
+
+
+.loss_output{
+     background: #ED213A;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     text-align: center;
+     width:50%;
+     margin: auto;
+     border-radius:15px;
+     padding:5px;
+     box-shadow: 5px 7px 3px rgb(240, 90, 90);
+     font-weight: bold;
+     display:none;
+}
+
+
+
+
+
+footer{
+     display: flex;
+     justify-content: center;
+     align-self: flex-start;
+     bottom:0;
+}
