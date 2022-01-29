@@ -1,88 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
-
-body{
-     font-family:"STIX Two Math";
-     margin: auto;
-     padding: 0;
-     background-color: whitesmoke;
-     text-justify: inter-word;
-
-
-    }
-header{
-     background-color: #dae3ee;
-     text-align: center;
-     padding: 2vw 0 0 2vw;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'STIX Two Math';
+  background-color: whitesmoke;
 }
 
-
-.section_form{
-     background-color:#5E6572 ;
-     margin: auto;
-     width: 30vw;
-     padding: 2rem;
-     min-height: 50vh;
-     border-radius: 20px;
-     text-align: center;
-     border: 2px solid grey;
-     box-shadow: 5px 6px 5px black;
-     display:block;
+header {
+  background-color: #dae3ee;
+  text-align: center;
 }
 
-input{
-     width:50%;
-     border-color: #dae3ee;
-     box-shadow: 2px 6px 4px black;
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
 }
 
-[placeholder]{
-     text-align: center;
-     font-weight: bolder;
+.links button {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: #5e6572;
+
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-button{
-     margin-top:1rem;
-     box-shadow:  2px 6px 4px black;
-     border: 2px solid black;
-
+.links button:hover {
+  background-color: #49505f;
 }
 
-.profit_output{
-     background-color: #11998e;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-     text-align: center;
-     width:50%;
-     margin: auto;
-     border-radius:15px;
-     padding:5px;
-     box-shadow: 5px 7px 3px green;
-     font-weight: bold;
-     display:none;
+.links a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.section_form {
+  background-color: #5e6572;
+  margin: auto;
+  width: 30vw;
+  padding: 2rem;
+  min-height: 50vh;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid grey;
+  box-shadow: 5px 6px 5px black;
+  display: block;
 }
 
-
-.loss_output{
-     background: #ED213A;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-     text-align: center;
-     width:50%;
-     margin: auto;
-     border-radius:15px;
-     padding:5px;
-     box-shadow: 5px 7px 3px rgb(240, 90, 90);
-     font-weight: bold;
-     display:none;
+input {
+  width: 50%;
+  border-color: #dae3ee;
+  border: none;
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.2em;
+  border-radius: 10px;
 }
 
+input:focus {
+  outline: none;
+}
 
+[placeholder] {
+  text-align: center;
+  font-weight: bolder;
+}
 
+.profit_output {
+  background-color: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 5px 7px 3px green;
+  font-weight: bold;
+  display: none;
+}
 
+.loss_output {
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 5px 7px 3px rgb(240, 90, 90);
+  font-weight: bold;
+  display: none;
+}
 
-footer{
-     display: flex;
-     justify-content: center;
-     align-self: flex-start;
-     bottom:0;
+.checkBtn {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: #496eb3;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.checkBtn:hover{
+     background-color: #3c5c99;
+     color:whitesmoke
 }

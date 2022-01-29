@@ -19,7 +19,7 @@ It will show Profut and Loss on your input also if you are lossing more than 50%
 - HTML
 ***
 ## Check it out here
-### [Stocks](https://stocksbyvanshsharma.netlify.app/)
+# [LIVE](https://stocksbyvanshsharma.netlify.app/)
 
 ****
 ## Demo
